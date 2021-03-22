@@ -1,0 +1,360 @@
+
+
+header{
+	background-color: black;
+	text-align: center;
+	padding: 20%;
+}
+
+
+
+body{
+	margin: 0;
+	font-family: Palatino, serif;
+	background-image: url("forest3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+h1{
+	color: white;
+	text-align:center;
+	font-size: 40px;
+}
+
+h2{
+	color: white;
+	text-align:center;
+}
+
+h3{
+	color: white;
+	text-align:center;
+}
+
+h4{
+	color: #bfbfbf;
+	text-align:center;
+	background-color: black;
+}
+
+h5{
+	color: #bfbfbf;
+	text-align:center;
+	background-color: black;
+}
+
+h6{
+	color:grey;
+	text-align: center;
+	font-size: 18px
+}
+
+
+p{
+	color: white;
+	text-align: center;
+	font-family: Palatino, serif;
+	font-size: 65px;
+}
+
+th, td{
+	padding: 15px;
+	background-color: black;
+}
+
+div{
+	background-color: black;
+	margin: 25px 50px 75px 40px;
+	padding: 15px;
+}
+
+.mail {
+	text-align: center;
+	color: white;
+}
+
+.mail a {
+color: white;
+}
+
+.mail a:hover {
+color: #e51010;
+}
+
+
+.topnav{
+	background-color: #333;
+	overflow: hidden;
+}
+
+.topnav a{
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #000000;
+	color: white;
+}
+
+.topnav a.active{
+	background-image: url("forest3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+*{
+	box-sizing: border-box;
+	font-family: Palatino, serif;
+}
+
+footer{
+	background-color: black;
+	padding: 10px;
+}
+
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+img {horizontal-align: middle;}
+
+
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1} 
+  to {opacity: .4}
+  
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+.container {
+  border: none;
+  background-image: url("forest3.jpg");
+  	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+  margin: 100px 100px 100px 100px;
+  padding: 1px;
+ 
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  color: white;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+	
+	
+img{
+	
+	display: inline-block;
+}
+	
+	
+	
+	
+	
+* {
+  box-sizing: border-box;
+}
+
+.container2 {
+  position: relative;
+  background-color: black;
+}
+
+.mySlides {
+  display: none;
+  text-align: center
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+.column {
+  float: left;
+  width: 21.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active, .demo:hover {
+  opacity: 1;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head><title>Matt Camelon Sculpures </title>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<!--linking external css file-->
+<link rel="stylesheet"type="text/css"href="main.css">
+
+<div class="topnav">
+	<a class="active" href="index.html">home</a>
+	<a href="about.html">about</a>
+	<a href="contact.html">contact</a>
+</div>
+
+</head>
+<body>
+
+<p>Matt Camelon Sculptures</p>
+
+<div>
+<br/>
+
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/turtle.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/turtle.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/log.jpg" style="width:100%">
+</div>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); 
+}
+</script>
+
+
+
+
+<div>
+<h1>Artwork</h1>
+<br/>
+<h4>(click image for more)</h4>
+</div>
+
+
+
+<div>
+<table style="width:100%">
+	<tr>
+		<td><a href="fountain.html">
+  <img src="images/fountaincover.jpg" alt="fountain" width="340" height="340">
+</a></td>
+		<td><a href="turtle.html">
+		<img src="images/turtlecover.jpg" width="340" height="340">
+</a></td>
+		<td><a href="birdbath.html">
+		<img src="images/birdbathcover.jpg" width="340" height="340">
+		</a></td>
+	</tr>
+	<tr>
+		<td><a href="stumpbath.html">
+		<img src="images/stumpbathcover.jpg" width="340" height="340">
+		</a></td>
+		<td><a href="gutter.html">
+		<img src="images/guttercover.jpg" width="340" height="340">
+		</a></td>
+		<td><a href="planter.html">
+		<img src="images/plantercover.jpg" width="340" height="340">
+		</a></td>
+	</tr>
+	<tr>
+		<td><a href="walkway.html">
+		<img src="images/pathcover.jpg" width="340" height="340">
+		</a></td>
+		<td><a href="ball.html">
+		<img src="images/ballcover.jpg" width="340" height="340">
+		</a></td>
+		<td><a href="house.html">
+		<img src="images/housecover.jpg" width="340" height="340">
+		</a></td>
+	</tr>
+	<tr>
+		<td><a href="log.html">
+		<img src="images/logcover.jpg" width="340" height="340">
+		</a></td>
+		<td><a href="flowerbath.html">
+		<img src="images/flowerbath.png" width="340" height="340">
+		</a></td>
+		<td><a href="planter2.html">
+		<img src="images/planter12.png" width="340" height="340">
+		</a></td>
+	</tr>
+</table>
+</div>
+</div>
+</body>
+<footer>
+
+
+<h2>Camelon Concrete Sculptures &copy</h2>
+<h3>6/21/20</h3>
+
+
+
+</footer>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
